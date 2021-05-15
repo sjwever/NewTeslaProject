@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/functions";
 .hero{
     //box-sizing: border-box;
     background-image: url('./images/hero.jpg');
@@ -9,7 +10,7 @@ body{
     margin:0;
     padding: 0;
 }
-.vert .carousel-item-next.carousel-item-left,
+/*.vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -25,7 +26,7 @@ body{
 .vert .active.carousel-item-left {
 -webkit-transform: translate3d(0,-100%, 0);
         transform: translate3d(0,-100%, 0);
-}
+}*/
 
 /*.hero{
     width: 100%;
@@ -35,15 +36,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;    
 
-}
+}*/
 
-@media screen only(min-width: 768px){
+/*@media screen only(min-width: 576px){
     .hero{
-        background-image: url('images/hero.jpg');
+        background-image: url('images\mobile.jpg');
         width: 100%;
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
-}*/
+    */
