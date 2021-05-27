@@ -1,17 +1,21 @@
 @import "../node_modules/bootstrap/scss/functions";
-@media screen(max-width: 1140px;){
-.jumbotron-fluid{
-    //box-sizing: border-box;
-    background-image: url('images/hero.jpg');
-    //background-size: cover;
-    background-repeat: no-repeat;
 
+@media screen(min-width: 641px;){
+.jumbotron-fluid{
+    .container-fluid{
+    //box-sizing: border-box;
+    background-image: url('images\hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
     }
 }
-@media screen(min-width: 640px){
+@media screen(max-width: 640px){
     .jumbotron-fluid{
         .container-fluid{
-        display: none;
+        background-image: url('images\hero-mobile.jpg');
+        height: 100vh;
+        width: 100%;
         }
     }
 }
